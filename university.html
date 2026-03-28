@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden University — Обучение бровям | Golden Lashes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="university.css">
+</head>
+<body>
+  <!-- Навигация -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">Golden<span>Lashes</span></a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="index.html#services">Услуги</a></li>
+        <li><a href="index.html#portfolio">Портфолио</a></li>
+        <li><a href="#" class="active-link">Университет</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Записаться</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Uni Hero -->
+  <section class="u-hero">
+    <div class="u-hero-bg"></div>
+    <div class="container">
+      <div class="u-hero-content">
+        <div class="u-badge"><i class="bi bi-mortarboard"></i> Golden University</div>
+        <h1>Твоя новая профессия<br><span class="gold-text">начинается здесь</span></h1>
+        <p>Полная программа обучения — от первых шагов до собственного бизнеса. Три уровня, десятки уроков, живая поддержка. Выбери свой путь и начни прямо сейчас.</p>
+        <div class="u-hero-nums">
+          <div class="u-num"><i class="bi bi-people"></i><span>127+</span><small>выпускниц</small></div>
+          <div class="u-num"><i class="bi bi-graph-up-arrow"></i><span>94%</span><small>работают</small></div>
+          <div class="u-num"><i class="bi bi-shop"></i><span>23</span><small>свои студии</small></div>
+        </div>
+        <div class="u-hero-btns">
+          <a href="#courses" class="btn btn-primary"><i class="bi bi-play-circle"></i> Начать обучение</a>
+          <a href="#how" class="btn btn-outline"><i class="bi bi-info-circle"></i> Как это работает</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Как это работает -->
+  <section class="u-how" id="how">
+    <div class="container">
+      <p class="section-tag">Как это работает</p>
+      <h2 class="section-title">Твой путь <span class="gold-text">в 4 шага</span></h2>
+      <div class="how-grid">
+        <div class="how-card">
+          <div class="how-num">01</div>
+          <div class="how-icon"><i class="bi bi-cursor"></i></div>
+          <h4>Выбери уровень</h4>
+          <p>Старт, PRO или Бизнес — в зависимости от твоего опыта и целей</p>
+        </div>
+        <div class="how-card">
+          <div class="how-num">02</div>
+          <div class="how-icon"><i class="bi bi-play-btn"></i></div>
+          <h4>Смотри уроки</h4>
+          <p>HD видео с крупными планами. Смотри в своём темпе, пересматривай сколько хочешь</p>
+        </div>
+        <div class="how-card">
+          <div class="how-num">03</div>
+          <div class="how-icon"><i class="bi bi-pencil-square"></i></div>
+          <h4>Практикуй</h4>
+          <p>Выполняй задания, отправляй работы на разбор, получай обратную связь</p>
+        </div>
+        <div class="how-card">
+          <div class="how-num">04</div>
+          <div class="how-icon"><i class="bi bi-trophy"></i></div>
+          <h4>Получи результат</h4>
+          <p>Сертификат, портфолио, первые клиенты и уверенность в своих руках</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Формат -->
+  <section class="u-format">
+    <div class="container">
+      <p class="section-tag">Что входит в обучение</p>
+      <h2 class="section-title">Всё для твоего <span class="gold-text">роста</span></h2>
+      <div class="format-row">
+        <div class="fmt-card"><i class="bi bi-camera-video"></i><h4>HD Видеоуроки</h4><p>Профессиональная съёмка крупным планом. Доступ навсегда.</p></div>
+        <div class="fmt-card"><i class="bi bi-journal-text"></i><h4>Рабочие тетради</h4><p>Конспекты, схемы, чек-листы к каждому модулю.</p></div>
+        <div class="fmt-card"><i class="bi bi-person-check"></i><h4>Личный наставник</h4><p>Проверяет работы, отвечает на вопросы, поддерживает.</p></div>
+        <div class="fmt-card"><i class="bi bi-clipboard-check"></i><h4>Домашние задания</h4><p>Практика после каждого модуля с детальным разбором.</p></div>
+        <div class="fmt-card"><i class="bi bi-broadcast"></i><h4>Живые эфиры</h4><p>Еженедельные Q&A сессии и разборы работ.</p></div>
+        <div class="fmt-card"><i class="bi bi-gift"></i><h4>Бонусы</h4><p>Шаблоны, скрипты, гайды — всё готовое для старта.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== КУРСЫ ===== -->
+  <section class="u-courses" id="courses">
+    <div class="container">
+      <p class="section-tag">Программы обучения</p>
+      <h2 class="section-title">Выбери свой <span class="gold-text">уровень</span></h2>
+      <p class="section-sub">Каждый уровень — это полноценная программа с видеоуроками, практикой и поддержкой. Сейчас все курсы доступны бесплатно.</p>
+
+      <!-- Табы -->
+      <div class="u-tabs">
+        <button class="u-tab active" data-level="starter">
+          <i class="bi bi-flower1"></i>
+          <span class="u-tab-name">Старт</span>
+          <span class="u-tab-desc">С нуля до первых клиентов</span>
+        </button>
+        <button class="u-tab" data-level="pro">
+          <i class="bi bi-star"></i>
+          <span class="u-tab-name">PRO</span>
+          <span class="u-tab-desc">Перманент, бренд, доход 100к+</span>
+        </button>
+        <button class="u-tab" data-level="business">
+          <i class="bi bi-gem"></i>
+          <span class="u-tab-name">Бизнес</span>
+          <span class="u-tab-desc">Своя студия и школа</span>
+        </button>
+      </div>
+
+      <!-- ===== СТАРТ ===== -->
+      <div class="u-panel active" id="level-starter">
+        <div class="u-panel-head">
+          <div class="u-panel-info">
+            <span class="u-level-tag"><i class="bi bi-flower1"></i> Базовый уровень</span>
+            <h3>Старт в профессии</h3>
+            <p>Полная программа для тех, кто начинает с нуля. 8 модулей, 24 урока, практика на моделях. Через 2 недели ты — мастер с первыми клиентами.</p>
+            <div class="u-panel-meta">
+              <span><i class="bi bi-collection-play"></i> 24 урока</span>
+              <span><i class="bi bi-clock"></i> ~20 часов</span>
+              <span><i class="bi bi-calendar3"></i> 2 недели</span>
+              <span><i class="bi bi-patch-check"></i> Сертификат</span>
+            </div>
+          </div>
+          <div class="u-panel-cta">
+            <div class="u-price-badge"><span>Бесплатно</span></div>
+            <a href="index.html#contact" class="btn btn-primary btn-full"><i class="bi bi-play-circle"></i> Начать курс</a>
+            <p class="u-guarantee"><i class="bi bi-shield-check"></i> Доступ сразу после регистрации</p>
+          </div>
+        </div>
+
+        <!-- Модули -->
+        <div class="u-modules">
+
+          <!-- Модуль 1 -->
+          <div class="u-module">
+            <button class="u-module-btn">
+              <span class="u-mod-num">01</span>
+              <div class="u-mod-title">
+                <h4>Анатомия лица и типы бровей</h4>
+                <span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span>
+              </div>
+              <i class="bi bi-chevron-down u-mod-arrow"></i>
+            </button>
+            <div class="u-module-body">
+              <div class="u-lessons">
+                <div class="u-lesson">
+                  <span class="u-lesson-num">1.1</span>
+                  <div class="u-lesson-info">
+                    <h5>Строение лица и пропорции</h5>
+                    <p>Золотое сечение, оси симметрии, ключевые точки лица. Учишься видеть лицо как мастер — не как обычный человек.</p>
+                    <div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-file-earmark-pdf"></i> PDF-конспект</span></div>
+                  </div>
+                </div>
+                <div class="u-lesson">
+                  <span class="u-lesson-num">1.2</span>
+                  <div class="u-lesson-info">
+                    <h5>5 типов лица и подбор формы бровей</h5>
+                    <p>Овальное, круглое, квадратное, вытянутое, треугольное — для каждого своя идеальная форма. Разбираем на реальных примерах.</p>
+                    <div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-images"></i> Фото-примеры</span></div>
+                  </div>
+                </div>
+                <div class="u-lesson">
+                  <span class="u-lesson-num">1.3</span>
+                  <div class="u-lesson-info">
+                    <h5>Практика: определяем тип лица за 30 секунд</h5>
+                    <p>Тренируешься на фотографиях, потом на себе и подругах. К концу урока — навык на автомате.</p>
+                    <div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span><span><i class="bi bi-check-circle"></i> Тест</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Модуль 2 -->
+          <div class="u-module">
+            <button class="u-module-btn">
+              <span class="u-mod-num">02</span>
+              <div class="u-mod-title"><h4>Колористика — наука о цвете</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2 часа</span></div>
+              <i class="bi bi-chevron-down u-mod-arrow"></i>
+            </button>
+            <div class="u-module-body">
+              <div class="u-lessons">
+                <div class="u-lesson"><span class="u-lesson-num">2.1</span><div class="u-lesson-info"><h5>Цветотипы внешности: весна, лето, осень, зима</h5><p>Определяем цветотип за минуту. Понимаем, какие оттенки бровей подходят каждому типу.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-palette"></i> Цветовой круг</span></div></div></div>
+                <div class="u-lesson"><span class="u-lesson-num">2.2</span><div class="u-lesson-info"><h5>Подбор оттенка краски и хны</h5><p>Тёплые и холодные подтоны, смешивание оттенков, работа с нежелательной рыжиной и зеленцой.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-file-earmark-pdf"></i> Таблица оттенков</span></div></div></div>
+                <div class="u-lesson"><span class="u-lesson-num">2.3</span><div class="u-lesson-info"><h5>Практика: подбираем цвет для 10 типажей</h5><p>Работаем с фотографиями реальных клиентов. Учишься видеть подтон кожи и волос мгновенно.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Модуль 3 -->
+          <div class="u-module">
+            <button class="u-module-btn">
+              <span class="u-mod-num">03</span>
+              <div class="u-mod-title"><h4>Инструменты и материалы мастера</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 1.5 часа</span></div>
+              <i class="bi bi-chevron-down u-mod-arrow"></i>
+            </button>
+            <div class="u-module-body">
+              <div class="u-lessons">
+                <div class="u-lesson"><span class="u-lesson-num">3.1</span><div class="u-lesson-info"><h5>Полный набор мастера: что нужно для старта</h5><p>Пинцеты, щёточки, кисти, краски, хна, воск, нити. Разбираем каждый инструмент — зачем нужен и как выбрать.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-list-check"></i> Чек-лист закупки</span></div></div></div>
+                <div class="u-lesson"><span class="u-lesson-num">3.2</span><div class="u-lesson-info"><h5>Обзор брендов: на чём экономить, а на чём нет</h5><p>Сравниваем бюджетные и премиальные материалы. Мой личный топ-лист проверенных брендов.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 25 мин</span><span><i class="bi bi-cart3"></i> Список поставщиков</span></div></div></div>
+                <div class="u-lesson"><span class="u-lesson-num">3.3</span><div class="u-lesson-info"><h5>Организация рабочего места</h5><p>Как обустроить кабинет или уголок дома. Санитарные нормы, стерилизация, хранение материалов.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 20 мин</span><span><i class="bi bi-camera"></i> Фото-примеры</span></div></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Модуль 4 -->
+          <div class="u-module">
+            <button class="u-module-btn"><span class="u-mod-num">04</span><div class="u-mod-title"><h4>Архитектура бровей — построение формы</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 4 урока · 3.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">4.1</span><div class="u-lesson-info"><h5>Разметка бровей: 3 ключевые точки</h5><p>Начало, излом, конец — находим идеальные точки для любого лица. Работаем с линейкой и нитью.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-rulers"></i> Схемы разметки</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.2</span><div class="u-lesson-info"><h5>Построение формы по точкам</h5><p>Соединяем точки в идеальную форму. Толщина, изгиб, хвостик — каждый элемент имеет значение.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-vector-pen"></i> Шаблоны форм</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.3</span><div class="u-lesson-info"><h5>Работа с асимметрией лица</h5><p>У 90% людей лицо асимметрично. Учишься компенсировать это формой бровей так, чтобы никто не заметил.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-images"></i> Кейсы</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.4</span><div class="u-lesson-info"><h5>Практика: строим форму на 5 типах лица</h5><p>Работаем на силиконовых накладках, потом на живой модели. Полный разбор каждой работы.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 60 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span><span><i class="bi bi-camera"></i> Фото-отчёт</span></div></div></div>
+            </div></div>
+          </div>
+
+          <!-- Модуль 5 -->
+          <div class="u-module">
+            <button class="u-module-btn"><span class="u-mod-num">05</span><div class="u-mod-title"><h4>Коррекция пинцетом и воском</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">5.1</span><div class="u-lesson-info"><h5>Техника работы пинцетом без боли</h5><p>Правильный захват, направление выдёргивания, скорость. Клиент не должен страдать — учимся делать комфортно.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-zoom-in"></i> Крупные планы</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">5.2</span><div class="u-lesson-info"><h5>Восковая депиляция бровей</h5><p>Горячий и плёночный воск, техника нанесения, работа с чувствительной кожей. Быстро и чисто.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-file-earmark-pdf"></i> Протокол</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">5.3</span><div class="u-lesson-info"><h5>Нитевая коррекция (тридинг)</h5><p>Древняя техника, которая снова в тренде. Идеальна для тонких волосков и чувствительной кожи.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+            </div></div>
+          </div>
+
+          <!-- Модуль 6 -->
+          <div class="u-module">
+            <button class="u-module-btn"><span class="u-mod-num">06</span><div class="u-mod-title"><h4>Окрашивание хной и краской</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">6.1</span><div class="u-lesson-info"><h5>Окрашивание профессиональной краской</h5><p>Выбор оксида, время выдержки, нанесение. Как получить ровный насыщенный цвет без пятен.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-palette"></i> Формулы</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">6.2</span><div class="u-lesson-info"><h5>Окрашивание хной: техника и секреты</h5><p>Замешивание, нанесение слоями, время выдержки. Как добиться эффекта «тату-бровей» хной.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-droplet"></i> Рецепты замеса</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">6.3</span><div class="u-lesson-info"><h5>Смешивание оттенков и работа с подтонами</h5><p>Как убрать рыжину, добавить глубину, создать натуральный многотоновый эффект.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+            </div></div>
+          </div>
+
+          <!-- Модуль 7 -->
+          <div class="u-module">
+            <button class="u-module-btn"><span class="u-mod-num">07</span><div class="u-mod-title"><h4>Работа с клиентом от А до Я</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">7.1</span><div class="u-lesson-info"><h5>Консультация и выявление потребностей</h5><p>Как задавать правильные вопросы, понять чего хочет клиент, и предложить лучшее решение.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-chat-dots"></i> Скрипты</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.2</span><div class="u-lesson-info"><h5>Работа с возражениями и страхами</h5><p>«А вдруг не понравится?», «А это больно?», «А почему так дорого?» — готовые ответы на всё.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-file-earmark-text"></i> Шпаргалка</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.3</span><div class="u-lesson-info"><h5>Как получить отзыв и повторную запись</h5><p>Фото до/после, просьба об отзыве, напоминание о коррекции. Система, которая работает на автомате.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 25 мин</span><span><i class="bi bi-phone"></i> Шаблоны сообщений</span></div></div></div>
+            </div></div>
+          </div>
+
+          <!-- Модуль 8 -->
+          <div class="u-module">
+            <button class="u-module-btn"><span class="u-mod-num">08</span><div class="u-mod-title"><h4>Первые клиенты — запуск карьеры</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">8.1</span><div class="u-lesson-info"><h5>Упаковка Instagram с нуля</h5><p>Шапка профиля, хайлайтс, первые 9 постов, сторис. Готовый контент-план на первый месяц.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-phone"></i> Шаблоны</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">8.2</span><div class="u-lesson-info"><h5>Прайс, запись и первые модели</h5><p>Как выставить цену, где найти моделей за отзыв, как перейти от бесплатных к платным клиентам.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-calculator"></i> Калькулятор цен</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">8.3</span><div class="u-lesson-info"><h5>План выхода на 40 000 ₽ за первый месяц</h5><p>Пошаговая стратегия: сколько клиентов нужно, какой чек ставить, где искать. Реальные цифры.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-bar-chart"></i> Бизнес-план</span></div></div></div>
+            </div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== PRO ===== -->
+      <div class="u-panel" id="level-pro">
+        <div class="u-panel-head">
+          <div class="u-panel-info">
+            <span class="u-level-tag"><i class="bi bi-star"></i> Продвинутый уровень</span>
+            <h3>Мастер бровей PRO</h3>
+            <p>Перманентный макияж, сложные случаи, личный бренд и стабильный доход от 100 000 ₽. 10 модулей, 32 урока.</p>
+            <div class="u-panel-meta">
+              <span><i class="bi bi-collection-play"></i> 32 урока</span>
+              <span><i class="bi bi-clock"></i> ~30 часов</span>
+              <span><i class="bi bi-calendar3"></i> 4 недели</span>
+              <span><i class="bi bi-patch-check"></i> Сертификат PRO</span>
+            </div>
+          </div>
+          <div class="u-panel-cta">
+            <div class="u-price-badge"><span>Бесплатно</span></div>
+            <a href="index.html#contact" class="btn btn-primary btn-full"><i class="bi bi-play-circle"></i> Начать курс</a>
+            <p class="u-guarantee"><i class="bi bi-shield-check"></i> Доступ сразу после регистрации</p>
+          </div>
+        </div>
+        <div class="u-modules">
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">01</span><div class="u-mod-title"><h4>Продвинутая архитектура — сложные формы</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 3 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">1.1</span><div class="u-lesson-info"><h5>Нестандартные лица: возрастные, мужские, этнические</h5><p>Каждый тип лица — свои правила. Разбираем особенности работы с разными клиентами.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-images"></i> Кейсы</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">1.2</span><div class="u-lesson-info"><h5>Авторские техники построения формы</h5><p>Мои фирменные приёмы, которые отличают мастера от новичка. Секреты идеального изгиба.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-vector-pen"></i> Схемы</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">1.3</span><div class="u-lesson-info"><h5>Практика: 5 сложных кейсов с разбором</h5><p>Реальные клиенты с проблемными бровями. Разбираем каждый случай от диагностики до результата.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 60 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">02</span><div class="u-mod-title"><h4>Перманентный макияж — пудровое напыление</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 4 урока · 4 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">2.1</span><div class="u-lesson-info"><h5>Оборудование для перманента: аппарат, иглы, пигменты</h5><p>Какой аппарат выбрать новичку, типы игл, палитра пигментов. Полный гайд по закупке.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-cart3"></i> Список</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">2.2</span><div class="u-lesson-info"><h5>Техника пудрового напыления пошагово</h5><p>Настройка аппарата, глубина введения, скорость, давление. Каждое движение — под микроскопом.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 70 мин</span><span><i class="bi bi-zoom-in"></i> Макросъёмка</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">2.3</span><div class="u-lesson-info"><h5>Растушёвка и градиент: создаём натуральный эффект</h5><p>Как сделать так, чтобы перманент выглядел как натуральные брови, а не как татуировка.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-palette"></i> Палитра</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">2.4</span><div class="u-lesson-info"><h5>Практика на латексе и живой модели</h5><p>Сначала тренируешься на искусственной коже, потом — реальная работа под моим контролем.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 60 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">03</span><div class="u-mod-title"><h4>Волосковая техника (микроблейдинг)</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 3 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">3.1</span><div class="u-lesson-info"><h5>Ручная и аппаратная волосковая техника</h5><p>Разница между микроблейдингом и аппаратной волосковой. Когда что применять.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-file-earmark-pdf"></i> Сравнение</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">3.2</span><div class="u-lesson-info"><h5>Рисуем волоски: направление, толщина, длина</h5><p>Имитация натуральных волосков. Как создать эффект «своих бровей, только лучше».</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-vector-pen"></i> Схемы роста</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">3.3</span><div class="u-lesson-info"><h5>Комбинированная техника: напыление + волоски</h5><p>Самая востребованная техника на рынке. Объединяем обе техники для максимально реалистичного результата.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 60 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">04</span><div class="u-mod-title"><h4>Ламинирование и долговременная укладка</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">4.1</span><div class="u-lesson-info"><h5>Составы и техника ламинирования</h5><p>Пошаговый протокол, время выдержки, работа с разными типами волосков.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-file-earmark-text"></i> Протокол</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.2</span><div class="u-lesson-info"><h5>Долговременная укладка: направление и объём</h5><p>Как придать бровям нужное направление и зафиксировать на 6 недель.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-images"></i> До/после</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.3</span><div class="u-lesson-info"><h5>Комбо: ламинирование + окрашивание</h5><p>Самая популярная связка. Как делать комплекс за один визит и увеличить средний чек.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">05</span><div class="u-mod-title"><h4>Работа с проблемными бровями</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">5.1</span><div class="u-lesson-info"><h5>Алопеция, шрамы, перещипанные брови</h5><p>Как работать с клиентами, у которых почти нет волосков. Техники восстановления визуального объёма.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-images"></i> Кейсы</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">5.2</span><div class="u-lesson-info"><h5>Коррекция неудачного перманента</h5><p>Как перекрыть старый пигмент, исправить форму, работать с рубцовой тканью.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-eyedropper"></i> Анализ пигментов</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">5.3</span><div class="u-lesson-info"><h5>Сложные случаи: разбор 7 реальных клиентов</h5><p>Фото до/после с полным описанием процесса. Что пошло не так у других мастеров и как мы это исправили.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-journal-text"></i> Кейс-бук</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">06</span><div class="u-mod-title"><h4>Ценообразование и упаковка услуг</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">6.1</span><div class="u-lesson-info"><h5>Как выставить цену, которую платят с удовольствием</h5><p>Психология цены, якорение, пакеты услуг. Почему дешёвый мастер — не значит востребованный.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-calculator"></i> Калькулятор</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">6.2</span><div class="u-lesson-info"><h5>Пакеты, абонементы и upsell</h5><p>Как увеличить средний чек на 40% без давления. Комплексы, программы лояльности, подарочные сертификаты.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-file-earmark-text"></i> Шаблоны</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">6.3</span><div class="u-lesson-info"><h5>Создание прайс-листа, который продаёт</h5><p>Дизайн, структура, формулировки. Прайс — это не просто список цен, это инструмент продаж.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-file-earmark-richtext"></i> Шаблон прайса</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">07</span><div class="u-mod-title"><h4>Продвижение в Instagram и TikTok</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 4 урока · 3 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">7.1</span><div class="u-lesson-info"><h5>Контент-стратегия для бровиста</h5><p>Что снимать, как часто, в каком формате. Контент-план на месяц с готовыми идеями.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-calendar3"></i> Контент-план</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.2</span><div class="u-lesson-info"><h5>Reels и TikTok: вирусный контент</h5><p>Тренды, переходы, музыка, хуки. Как набрать первые 10 000 просмотров и превратить их в клиентов.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-film"></i> Примеры</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.3</span><div class="u-lesson-info"><h5>Сторис, которые продают</h5><p>Прогревы, опросы, закулисье, отзывы. Как вести сторис так, чтобы в директ писали «хочу записаться».</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-phone"></i> Шаблоны</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.4</span><div class="u-lesson-info"><h5>Таргетированная реклама для бровиста</h5><p>Настройка рекламы в Instagram с нуля. Бюджет, аудитория, креативы. Первые клиенты из рекламы.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-bullseye"></i> Настройка</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">08</span><div class="u-mod-title"><h4>Создание личного бренда</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">8.1</span><div class="u-lesson-info"><h5>Позиционирование: чем ты отличаешься</h5><p>Находим твою уникальность, формулируем УТП, определяем целевую аудиторию.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-lightbulb"></i> Воркшоп</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">8.2</span><div class="u-lesson-info"><h5>Визуальный стиль и tone of voice</h5><p>Цвета, шрифты, фильтры, стиль общения. Чтобы тебя узнавали с первого поста.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-palette2"></i> Мудборд</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">8.3</span><div class="u-lesson-info"><h5>Сторителлинг: история, которая продаёт</h5><p>Как рассказать свою историю так, чтобы клиенты чувствовали связь и доверие.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-pencil-square"></i> Задание</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">09</span><div class="u-mod-title"><h4>Фотография работ для портфолио</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">9.1</span><div class="u-lesson-info"><h5>Свет, ракурс и настройки телефона</h5><p>Как снимать брови на телефон так, чтобы выглядело профессионально. Кольцевая лампа, естественный свет.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-camera"></i> Настройки</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">9.2</span><div class="u-lesson-info"><h5>Обработка фото: до/после без обмана</h5><p>Лёгкая ретушь, цветокоррекция, коллажи до/после. Честно, красиво, продающе.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-sliders"></i> Пресеты</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">9.3</span><div class="u-lesson-info"><h5>Собираем портфолио, которое продаёт</h5><p>Какие работы показывать, как оформить, где размещать. Портфолио — твой главный продавец.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-grid-3x3-gap"></i> Шаблон</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">10</span><div class="u-mod-title"><h4>Масштабирование — от мастера к студии</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">10.1</span><div class="u-lesson-info"><h5>Когда пора расширяться: признаки и цифры</h5><p>Если у тебя запись на 2 недели вперёд — пора. Считаем, когда аренда кабинета окупится.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-calculator"></i> Калькулятор</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">10.2</span><div class="u-lesson-info"><h5>Первый помощник: кого нанять и как обучить</h5><p>Администратор, стажёр или второй мастер. Как делегировать и не потерять качество.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-people"></i> Вакансия</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">10.3</span><div class="u-lesson-info"><h5>Дорожная карта: выход на 200 000+ ₽/мес</h5><p>Пошаговый план масштабирования на 6 месяцев. От одного кресла до полноценной студии.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-map"></i> Дорожная карта</span></div></div></div>
+            </div></div></div>
+        </div>
+      </div>
+
+      <!-- ===== БИЗНЕС ===== -->
+      <div class="u-panel" id="level-business">
+        <div class="u-panel-head">
+          <div class="u-panel-info">
+            <span class="u-level-tag"><i class="bi bi-gem"></i> Бизнес-уровень</span>
+            <h3>Свой бровный бизнес</h3>
+            <p>Открой студию, найми мастеров, запусти свою школу. 8 модулей, 26 уроков. Для тех, кто мыслит как предприниматель.</p>
+            <div class="u-panel-meta">
+              <span><i class="bi bi-collection-play"></i> 26 уроков</span>
+              <span><i class="bi bi-clock"></i> ~24 часа</span>
+              <span><i class="bi bi-calendar3"></i> 4 недели</span>
+              <span><i class="bi bi-patch-check"></i> Сертификат</span>
+            </div>
+          </div>
+          <div class="u-panel-cta">
+            <div class="u-price-badge"><span>Бесплатно</span></div>
+            <a href="index.html#contact" class="btn btn-primary btn-full"><i class="bi bi-play-circle"></i> Начать курс</a>
+            <p class="u-guarantee"><i class="bi bi-shield-check"></i> Доступ сразу после регистрации</p>
+          </div>
+        </div>
+        <div class="u-modules">
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">01</span><div class="u-mod-title"><h4>Бизнес-модель бровной студии</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 3 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">1.1</span><div class="u-lesson-info"><h5>Форматы студий: от кабинета до сети</h5><p>Домашний кабинет, аренда кресла, своя студия, франшиза. Плюсы и минусы каждого формата.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-diagram-3"></i> Сравнение</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">1.2</span><div class="u-lesson-info"><h5>Unit-экономика: считаем до старта</h5><p>Сколько нужно вложить, когда окупится, какая маржа. Реальные цифры из моего опыта.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-table"></i> Финмодель Excel</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">1.3</span><div class="u-lesson-info"><h5>Точка безубыточности и план на первый год</h5><p>Когда студия начнёт приносить прибыль. Пессимистичный, реалистичный и оптимистичный сценарии.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-graph-up"></i> Графики</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">02</span><div class="u-mod-title"><h4>Поиск помещения и оборудование</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">2.1</span><div class="u-lesson-info"><h5>Где искать помещение и на что смотреть</h5><p>Локация, трафик, площадь, ремонт. Как торговаться с арендодателем и на что обращать внимание в договоре.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-geo-alt"></i> Чек-лист осмотра</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">2.2</span><div class="u-lesson-info"><h5>Оборудование студии: полный список с ценами</h5><p>Кресла, лампы, стерилизаторы, мебель. Где купить дешевле, на чём можно сэкономить.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-cart3"></i> Список закупки</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">2.3</span><div class="u-lesson-info"><h5>Дизайн интерьера: атмосфера, которая продаёт</h5><p>Как создать уютное пространство с минимальным бюджетом. Цвета, свет, декор, фотозона.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-palette2"></i> Мудборд</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">03</span><div class="u-mod-title"><h4>Юридические вопросы и лицензии</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">3.1</span><div class="u-lesson-info"><h5>ИП или ООО: что выбрать и как оформить</h5><p>Налоговые режимы, регистрация за 1 день, какие коды ОКВЭД нужны. Всё простым языком.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-file-earmark-text"></i> Инструкция</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">3.2</span><div class="u-lesson-info"><h5>Санитарные нормы и документы</h5><p>Какие документы нужны для проверки, как оформить уголок потребителя, журналы учёта.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-file-earmark-pdf"></i> Шаблоны</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">3.3</span><div class="u-lesson-info"><h5>Договоры с клиентами и сотрудниками</h5><p>Информированное согласие, договор оказания услуг, трудовой договор. Готовые шаблоны.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-file-earmark-ruled"></i> Договоры</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">04</span><div class="u-mod-title"><h4>Найм и обучение мастеров</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 4 урока · 3 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">4.1</span><div class="u-lesson-info"><h5>Где искать мастеров и как проводить собеседование</h5><p>Площадки для поиска, вопросы на собеседовании, тестовое задание. Как отличить хорошего мастера.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-person-plus"></i> Вакансия</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.2</span><div class="u-lesson-info"><h5>Система обучения и стандарты качества</h5><p>Как обучить мастера работать по твоим стандартам. Чек-листы, протоколы, контроль качества.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-list-check"></i> Регламенты</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.3</span><div class="u-lesson-info"><h5>Мотивация и удержание команды</h5><p>Зарплата, бонусы, атмосфера. Как сделать так, чтобы мастера не уходили к конкурентам.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-trophy"></i> Система KPI</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">4.4</span><div class="u-lesson-info"><h5>Управление конфликтами в команде</h5><p>Как решать споры, давать обратную связь, увольнять без драмы. Лидерство в beauty-бизнесе.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 30 мин</span><span><i class="bi bi-chat-dots"></i> Скрипты</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">05</span><div class="u-mod-title"><h4>Маркетинг и привлечение клиентов</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 3 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">5.1</span><div class="u-lesson-info"><h5>Маркетинговая воронка для студии</h5><p>От первого касания до постоянного клиента. Строим систему, которая работает без тебя.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-funnel"></i> Воронка</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">5.2</span><div class="u-lesson-info"><h5>Партнёрства, блогеры и сарафанное радио</h5><p>Как договариваться с блогерами, строить партнёрства с салонами, запускать реферальную программу.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-megaphone"></i> Стратегия</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">5.3</span><div class="u-lesson-info"><h5>Онлайн-реклама: таргет, Яндекс, Google Maps</h5><p>Настройка рекламы для локального бизнеса. Геотаргетинг, карточка на картах, отзывы.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-bullseye"></i> Настройка</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">06</span><div class="u-mod-title"><h4>Финансы — учёт, налоги, прибыль</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">6.1</span><div class="u-lesson-info"><h5>Простой финансовый учёт для студии</h5><p>Таблица доходов и расходов, учёт материалов, зарплатный фонд. Без бухгалтера.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-table"></i> Таблица учёта</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">6.2</span><div class="u-lesson-info"><h5>Налоги: сколько платить и как не переплачивать</h5><p>УСН, патент, самозанятость. Какой режим выгоднее для твоего оборота.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-calculator"></i> Калькулятор</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">6.3</span><div class="u-lesson-info"><h5>Как считать прибыль и не уйти в минус</h5><p>Разница между выручкой и прибылью, подушка безопасности, реинвестирование.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 35 мин</span><span><i class="bi bi-piggy-bank"></i> Финплан</span></div></div></div>
+            </div></div></div>
+
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">07</span><div class="u-mod-title"><h4>Создание своей школы обучения</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 4 урока · 3.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">7.1</span><div class="u-lesson-info"><h5>Как упаковать свой опыт в курс</h5><p>Структура программы, формат уроков, платформа. Как превратить знания в продукт.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-kanban"></i> Структура</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.2</span><div class="u-lesson-info"><h5>Съёмка и монтаж видеоуроков</h5><p>Оборудование, свет, звук, монтаж. Как снять профессиональный курс на телефон.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 55 мин</span><span><i class="bi bi-camera-video"></i> Гайд</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.3</span><div class="u-lesson-info"><h5>Ценообразование и запуск продаж</h5><p>Сколько стоит твой курс, как продавать через прогрев, первый запуск и первые ученицы.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-rocket-takeoff"></i> План запуска</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">7.4</span><div class="u-lesson-info"><h5>Масштабирование школы: от 1 до 100 учениц</h5><p>Автоматизация, кураторы, воронка продаж. Как школа становится вторым источником дохода.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-graph-up-arrow"></i> Стратегия</span></div></div></div>
+            </div></div></div>
+          <div class="u-module"><button class="u-module-btn"><span class="u-mod-num">08</span><div class="u-mod-title"><h4>Автоматизация и делегирование</h4><span class="u-mod-meta"><i class="bi bi-collection-play"></i> 3 урока · 2.5 часа</span></div><i class="bi bi-chevron-down u-mod-arrow"></i></button>
+            <div class="u-module-body"><div class="u-lessons">
+              <div class="u-lesson"><span class="u-lesson-num">8.1</span><div class="u-lesson-info"><h5>CRM и онлайн-запись</h5><p>Настраиваем систему записи, напоминания клиентам, учёт визитов. Всё на автомате.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 45 мин</span><span><i class="bi bi-gear"></i> Настройка</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">8.2</span><div class="u-lesson-info"><h5>Telegram-бот для студии</h5><p>Бот для записи, FAQ, рассылки. Настраиваем без программиста за 2 часа.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 50 мин</span><span><i class="bi bi-robot"></i> Инструкция</span></div></div></div>
+              <div class="u-lesson"><span class="u-lesson-num">8.3</span><div class="u-lesson-info"><h5>Делегирование: чтобы бизнес работал без тебя</h5><p>Что делегировать первым, как контролировать, регламенты и чек-листы для команды.</p><div class="u-lesson-tags"><span><i class="bi bi-play-btn"></i> Видео 40 мин</span><span><i class="bi bi-clipboard-check"></i> Регламенты</span></div></div></div>
+            </div></div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="u-cta">
+    <div class="container">
+      <div class="u-cta-inner">
+        <i class="bi bi-mortarboard"></i>
+        <h2>Готова начать? <span class="gold-text">Все курсы сейчас бесплатны.</span></h2>
+        <p>Выбери свой уровень и начни обучение прямо сейчас. Никаких скрытых платежей — полный доступ ко всем урокам.</p>
+        <a href="index.html#contact" class="btn btn-primary"><i class="bi bi-arrow-right"></i> Получить доступ</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container"><div class="footer-inner">
+    <a href="index.html" class="logo">Golden<span>Lashes</span></a>
+    <p>© 2026 Golden Lashes. Сочи. Все права защищены.</p>
+    <div class="footer-links"><a href="https://t.me/" target="_blank">Telegram</a><a href="https://instagram.com/" target="_blank">Instagram</a><a href="https://wa.me/" target="_blank">WhatsApp</a></div>
+  </div></div></footer>
+
+  <a href="https://t.me/" class="tg-float" target="_blank" aria-label="Написать в Telegram"><span><i class="bi bi-telegram"></i></span></a>
+  <script src="university.js"></script>
+</body>
+</html>
