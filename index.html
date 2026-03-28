@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Lashes — Брови & Обучение | Сочи</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Навигация -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">Golden<span>Lashes</span></a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#university">Университет</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contact" class="nav-cta">Записаться</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Сочи • Брови • Обучение</p>
+      <h1>Твои идеальные брови<br><span class="gold-text">начинаются здесь</span></h1>
+      <p class="hero-sub">Создаю брови, которые подчёркивают твою природную красоту. Обучаю мастеров, которые меняют индустрию.</p>
+      <div class="hero-btns">
+        <a href="#services" class="btn btn-primary">Записаться</a>
+        <a href="#university" class="btn btn-outline">Хочу учиться</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>листай вниз</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- О мастере -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img">
+          <div class="about-img-placeholder"><span>Твоё фото</span></div>
+          <div class="about-badge">5+ лет опыта</div>
+        </div>
+        <div class="about-text">
+          <p class="section-tag">Обо мне</p>
+          <h2>Привет, я — твой бровист<br>и наставник <span class="gold-text">в Сочи</span></h2>
+          <p>Я верю, что красивые брови — это не про тренды, а про тебя. Про твоё лицо, твой характер, твою уникальность.</p>
+          <p>За 5 лет я создала сотни идеальных образов и обучила десятки мастеров, которые сейчас успешно работают по всей России.</p>
+          <p>Моя миссия — помочь каждой девушке чувствовать себя уверенно. Будь ты клиент или будущий мастер — ты в надёжных руках.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num" data-target="500">0</span><span class="stat-plus">+</span><span class="stat-label">Довольных клиентов</span></div>
+            <div class="stat"><span class="stat-num" data-target="80">0</span><span class="stat-plus">+</span><span class="stat-label">Выпускниц школы</span></div>
+            <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Лет в индустрии</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-tag">Услуги</p>
+      <h2 class="section-title">Выбери свою <span class="gold-text">процедуру</span></h2>
+      <p class="section-sub">Каждая процедура — это индивидуальный подход, премиальные материалы и результат, в который ты влюбишься</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Архитектура бровей</h3>
+          <p>Идеальная форма, подобранная под твоё лицо. Коррекция + окрашивание для естественного и ухоженного вида.</p>
+          <div class="service-price">от 2 500 ₽</div>
+          <div class="service-time">⏱ 60 мин</div>
+          <a href="#contact" class="btn btn-small">Записаться</a>
+        </div>
+        <div class="service-card featured">
+          <div class="service-badge">Хит</div>
+          <div class="service-icon">✦</div>
+          <h3>Перманентный макияж бровей</h3>
+          <p>Техника напыления для максимально натурального эффекта. Просыпайся уже красивой каждое утро.</p>
+          <div class="service-price">от 5 000 ₽</div>
+          <div class="service-time">⏱ 120 мин</div>
+          <a href="#contact" class="btn btn-small">Записаться</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Ламинирование бровей</h3>
+          <p>Укладка и фиксация волосков для эффекта «пушистых» бровей. Держится до 6 недель.</p>
+          <div class="service-price">от 3 000 ₽</div>
+          <div class="service-time">⏱ 45 мин</div>
+          <a href="#contact" class="btn btn-small">Записаться</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div><h3>Коррекция перманента</h3>
+          <p>Обновление и коррекция перманентного макияжа. Возвращаем яркость и чёткость формы.</p>
+          <div class="service-price">от 3 000 ₽</div><div class="service-time">⏱ 90 мин</div>
+          <a href="#contact" class="btn btn-small">Записаться</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div><h3>Долговременная укладка</h3>
+          <p>Придаём бровям нужное направление и объём. Идеально для тех, кто хочет «брови как с обложки».</p>
+          <div class="service-price">от 2 000 ₽</div><div class="service-time">⏱ 40 мин</div>
+          <a href="#contact" class="btn btn-small">Записаться</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div><h3>Комплекс «Всё включено»</h3>
+          <p>Архитектура + ламинирование + окрашивание. Полный уход за бровями в одном визите.</p>
+          <div class="service-price">от 4 500 ₽</div><div class="service-time">⏱ 90 мин</div>
+          <a href="#contact" class="btn btn-small">Записаться</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <p class="section-tag">Портфолио</p>
+      <h2 class="section-title">Работы, которые <span class="gold-text">говорят сами за себя</span></h2>
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="arch">Архитектура</button>
+        <button class="filter-btn" data-filter="perm">Перманент</button>
+        <button class="filter-btn" data-filter="lam">Ламинирование</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="arch"><div class="portfolio-placeholder"><span>До / После</span></div><div class="portfolio-overlay"><p>Архитектура бровей</p></div></div>
+        <div class="portfolio-item" data-category="perm"><div class="portfolio-placeholder"><span>До / После</span></div><div class="portfolio-overlay"><p>Перманентный макияж</p></div></div>
+        <div class="portfolio-item" data-category="lam"><div class="portfolio-placeholder"><span>До / После</span></div><div class="portfolio-overlay"><p>Ламинирование</p></div></div>
+        <div class="portfolio-item" data-category="arch"><div class="portfolio-placeholder"><span>До / После</span></div><div class="portfolio-overlay"><p>Архитектура бровей</p></div></div>
+        <div class="portfolio-item" data-category="perm"><div class="portfolio-placeholder"><span>До / После</span></div><div class="portfolio-overlay"><p>Перманентный макияж</p></div></div>
+        <div class="portfolio-item" data-category="lam"><div class="portfolio-placeholder"><span>До / После</span></div><div class="portfolio-overlay"><p>Ламинирование</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GOLDEN UNIVERSITY ===== -->
+  <section class="university" id="university">
+
+    <!-- Uni Hero -->
+    <div class="uni-hero">
+      <div class="uni-hero-bg"></div>
+      <div class="container">
+        <div class="uni-hero-content">
+          <div class="uni-logo-badge">Golden University</div>
+          <h2>Не просто курсы.<br><span class="gold-text">Твоя новая профессия.</span></h2>
+          <p>Здесь девушки становятся мастерами, которые зарабатывают от 100 000 ₽ в месяц, строят личный бренд и открывают свои студии. Всё начинается с одного решения.</p>
+          <div class="uni-hero-stats">
+            <div class="uni-stat">
+              <span class="uni-stat-num" data-target="127">0</span>
+              <span class="uni-stat-label">Выпускниц</span>
+            </div>
+            <div class="uni-stat-divider"></div>
+            <div class="uni-stat">
+              <span class="uni-stat-num" data-target="94">0</span><span class="uni-stat-percent">%</span>
+              <span class="uni-stat-label">Работают по профессии</span>
+            </div>
+            <div class="uni-stat-divider"></div>
+            <div class="uni-stat">
+              <span class="uni-stat-num" data-target="23">0</span>
+              <span class="uni-stat-label">Открыли свои студии</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Путь ученицы -->
+    <div class="uni-journey">
+      <div class="container">
+        <p class="section-tag">Как это работает</p>
+        <h3 class="section-title">Твой путь от новичка <span class="gold-text">до востребованного мастера</span></h3>
+        <div class="journey-timeline">
+          <div class="journey-line"></div>
+          <div class="journey-step">
+            <div class="journey-dot">1</div>
+            <div class="journey-card">
+              <span class="journey-week">Неделя 1-2</span>
+              <h4>Фундамент</h4>
+              <p>Изучаешь анатомию лица, типы бровей, колористику. Понимаешь, почему одна форма подходит, а другая — нет.</p>
+            </div>
+          </div>
+          <div class="journey-step">
+            <div class="journey-dot">2</div>
+            <div class="journey-card">
+              <span class="journey-week">Неделя 3-4</span>
+              <h4>Практика</h4>
+              <p>Работаешь с реальными моделями под моим контролем. Каждую работу разбираем вместе — ошибки превращаются в опыт.</p>
+            </div>
+          </div>
+          <div class="journey-step">
+            <div class="journey-dot">3</div>
+            <div class="journey-card">
+              <span class="journey-week">Неделя 5-6</span>
+              <h4>Уверенность</h4>
+              <p>Ты уже делаешь брови, которыми гордишься. Собираешь портфолио, получаешь первые отзывы.</p>
+            </div>
+          </div>
+          <div class="journey-step">
+            <div class="journey-dot">4</div>
+            <div class="journey-card">
+              <span class="journey-week">Неделя 7-8</span>
+              <h4>Запуск</h4>
+              <p>Упаковываешь себя как мастера: Instagram, прайс, запись. Получаешь первых платящих клиентов. Ты — мастер.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Формат обучения -->
+    <div class="uni-format">
+      <div class="container">
+        <p class="section-tag">Формат</p>
+        <h3 class="section-title">Обучение, которое <span class="gold-text">подстраивается под тебя</span></h3>
+        <div class="format-grid">
+          <div class="format-card">
+            <div class="format-icon">🎬</div>
+            <h4>HD Видеоуроки</h4>
+            <p>Профессиональная съёмка крупным планом. Видишь каждое движение. Доступ навсегда.</p>
+          </div>
+          <div class="format-card">
+            <div class="format-icon">📓</div>
+            <h4>Рабочие тетради</h4>
+            <p>К каждому модулю — красиво оформленная тетрадь с конспектами и схемами.</p>
+          </div>
+          <div class="format-card">
+            <div class="format-icon">👩‍🏫</div>
+            <h4>Личный наставник</h4>
+            <p>Живой человек, который проверяет работы, отвечает на вопросы и поддерживает.</p>
+          </div>
+          <div class="format-card">
+            <div class="format-icon">✅</div>
+            <h4>Домашние задания</h4>
+            <p>После каждого модуля — практика. Отправляешь фото, получаешь детальный разбор.</p>
+          </div>
+          <div class="format-card">
+            <div class="format-icon">📡</div>
+            <h4>Живые эфиры</h4>
+            <p>Еженедельные Q&A сессии в Telegram. Вопросы в реальном времени, разборы работ.</p>
+          </div>
+          <div class="format-card">
+            <div class="format-icon">🎁</div>
+            <h4>Бонусные материалы</h4>
+            <p>Чек-листы, шаблоны для Instagram, скрипты, гайд по закупке — всё готовое.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Курсы с табами -->
+    <div class="uni-courses">
+      <div class="container">
+        <p class="section-tag">Выбери свой уровень</p>
+        <h3 class="section-title">Три программы — <span class="gold-text">один результат</span></h3>
+        <p class="section-sub">Каждая программа создана для конкретной цели. Выбери ту, что резонирует с тобой прямо сейчас.</p>
+        <!-- Таймер набора -->
+        <div class="enrollment-timer">
+          <div class="timer-inner">
+            <div class="timer-text"><span class="timer-pulse"></span> Набор на апрельский поток закрывается через</div>
+            <div class="timer-countdown" id="uniTimer">
+              <div class="timer-block"><span class="timer-num" id="timerDays">00</span><span class="timer-label">дней</span></div>
+              <div class="timer-sep">:</div>
+              <div class="timer-block"><span class="timer-num" id="timerHours">00</span><span class="timer-label">часов</span></div>
+              <div class="timer-sep">:</div>
+              <div class="timer-block"><span class="timer-num" id="timerMins">00</span><span class="timer-label">минут</span></div>
+              <div class="timer-sep">:</div>
+              <div class="timer-block"><span class="timer-num" id="timerSecs">00</span><span class="timer-label">секунд</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Табы курсов -->
+        <div class="course-tabs">
+          <button class="course-tab active" data-course="starter"><span class="tab-emoji">🌱</span><span class="tab-name">Старт</span><span class="tab-price">9 900 ₽</span></button>
+          <button class="course-tab" data-course="pro"><span class="tab-emoji">⭐</span><span class="tab-name">PRO</span><span class="tab-price">24 900 ₽</span></button>
+          <button class="course-tab" data-course="business"><span class="tab-emoji">👑</span><span class="tab-name">Бизнес</span><span class="tab-price">39 900 ₽</span></button>
+        </div>
+
+        <!-- Панели курсов -->
+        <div class="course-panels">
+          <!-- СТАРТ -->
+          <div class="course-panel active" id="panel-starter">
+            <div class="panel-grid">
+              <div class="panel-info">
+                <span class="panel-level">Базовый курс</span>
+                <h3>Старт в профессии</h3>
+                <p class="panel-for">Для тех, кто начинает с нуля и хочет первых клиентов через 2 недели</p>
+                <div class="panel-result">
+                  <h4>Что ты получишь в итоге:</h4>
+                  <div class="result-items">
+                    <div class="result-item"><span class="result-icon">💰</span><div><span>Доход от 40 000 ₽/мес</span><p>Уже в первый месяц после обучения</p></div></div>
+                    <div class="result-item"><span class="result-icon">📸</span><div><span>Готовое портфолио</span><p>10+ работ для привлечения клиентов</p></div></div>
+                    <div class="result-item"><span class="result-icon">🎓</span><div><span>Сертификат мастера</span><p>Подтверждение твоей квалификации</p></div></div>
+                  </div>
+                </div>
+                <div class="panel-price-block">
+                  <div class="panel-price"><span class="panel-old-price">15 000 ₽</span><span class="panel-new-price">9 900 ₽</span></div>
+                  <div class="panel-spots"><span class="spots-dot"></span> Осталось 5 мест из 12</div>
+                  <a href="#contact" class="btn btn-primary btn-full">Записаться на курс</a>
+                  <p class="panel-guarantee">✦ 100% возврат, если не понравится после 1-го модуля</p>
+                </div>
+              </div>
+
+              <div class="panel-modules">
+                <h4>Программа курса <span class="module-count">8 модулей</span></h4>
+                <div class="accordion">
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">01</span><span class="acc-title">Анатомия лица и типы бровей</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Строение лица, пропорции, золотое сечение. Определяешь тип лица за 30 секунд.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>📝 Тетрадь</span><span>✅ Тест</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">02</span><span class="acc-title">Колористика — наука о цвете</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Цветотипы, подбор оттенка краски и хны, работа с подтонами. Никогда не ошибёшься с цветом.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>🎨 Цветовой круг</span><span>✅ Практика</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">03</span><span class="acc-title">Инструменты и материалы</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Что купить, где купить, на чём не экономить. Бренды, стартовый набор мастера.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📋 Чек-лист</span><span>💡 Лайфхаки</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">04</span><span class="acc-title">Архитектура — построение идеальной формы</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Главный модуль. Разметка, построение по точкам, симметрия, работа с асимметрией. Практика на моделях.</p><div class="acc-details"><span>🎬 4 видеоурока</span><span>📐 Схемы</span><span>✅ Практика</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">05</span><span class="acc-title">Коррекция пинцетом и воском</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Техника без боли, восковая депиляция, нитевая коррекция. Быстро и аккуратно.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>🔍 Крупные планы</span><span>✅ Практика</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">06</span><span class="acc-title">Окрашивание хной и краской</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Техники окрашивания, смешивание оттенков, стойкий и красивый результат.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>🎨 Формулы</span><span>✅ Практика</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">07</span><span class="acc-title">Работа с клиентом от А до Я</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Консультация, возражения, отзывы. Чтобы клиент вернулся и привёл подругу.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📝 Скрипты</span><span>💬 Ролевые игры</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">08</span><span class="acc-title">Первые клиенты — запуск карьеры</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Instagram, прайс, посты, сторис. Пошаговый план выхода на первые 40 000 ₽.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📱 Шаблоны</span><span>📊 Бизнес-план</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRO -->
+          <div class="course-panel" id="panel-pro">
+            <div class="panel-grid">
+              <div class="panel-info">
+                <span class="panel-level">Продвинутый курс</span>
+                <h3>Мастер бровей PRO</h3>
+                <p class="panel-for">Для тех, кто хочет выйти на стабильный доход от 100 000 ₽/мес и стать топ-мастером</p>
+                <div class="panel-result">
+                  <h4>Что ты получишь в итоге:</h4>
+                  <div class="result-items">
+                    <div class="result-item"><span class="result-icon">💎</span><div><span>Доход от 100 000 ₽/мес</span><p>Перманент + архитектура = высокий чек</p></div></div>
+                    <div class="result-item"><span class="result-icon">🏆</span><div><span>Статус PRO-мастера</span><p>Работаешь с премиум-клиентами</p></div></div>
+                    <div class="result-item"><span class="result-icon">📱</span><div><span>Личный бренд</span><p>Упакованный Instagram, который продаёт за тебя</p></div></div>
+                    <div class="result-item"><span class="result-icon">🤝</span><div><span>Менторство 30 дней</span><p>Личная поддержка после окончания курса</p></div></div>
+                  </div>
+                </div>
+                <div class="panel-price-block">
+                  <div class="panel-price"><span class="panel-old-price">35 000 ₽</span><span class="panel-new-price">24 900 ₽</span></div>
+                  <div class="panel-spots"><span class="spots-dot"></span> Осталось 3 места из 8</div>
+                  <a href="#contact" class="btn btn-primary btn-full">Записаться на курс</a>
+                  <p class="panel-guarantee">✦ 100% возврат, если не понравится после 1-го модуля</p>
+                </div>
+              </div>
+
+              <div class="panel-modules">
+                <h4>Программа курса <span class="module-count">10 модулей</span></h4>
+                <div class="accordion">
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">01</span><span class="acc-title">Продвинутая архитектура — сложные формы</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Работа с нестандартными лицами, асимметрия, возрастные клиенты. Формы, которые делают вау-эффект.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>📐 Продвинутые схемы</span><span>✅ Практика</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">02</span><span class="acc-title">Перманентный макияж — техника напыления</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Пудровое напыление от А до Я. Настройка аппарата, глубина введения, растушёвка. Натуральный эффект.</p><div class="acc-details"><span>🎬 5 видеоуроков</span><span>🔬 Крупные планы</span><span>✅ Практика на модели</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">03</span><span class="acc-title">Перманент — волосковая техника</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Микроблейдинг и аппаратная волосковая техника. Имитация натуральных волосков для максимальной реалистичности.</p><div class="acc-details"><span>🎬 4 видеоурока</span><span>🎨 Палитра пигментов</span><span>✅ Практика</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">04</span><span class="acc-title">Ламинирование и долговременная укладка</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Составы, техника нанесения, работа с разными типами волосков. Эффект «пушистых бровей» на 6 недель.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📋 Протоколы</span><span>✅ Практика</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">05</span><span class="acc-title">Работа с проблемными бровями</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Алопеция, шрамы, перещипанные брови, асимметрия. Как превратить сложный случай в идеальный результат.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>📸 Кейсы до/после</span><span>✅ Разборы</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">06</span><span class="acc-title">Коррекция чужих работ</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Как исправить неудачный перманент, перекрыть старый пигмент, работать с рубцовой тканью.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>🔬 Анализ пигментов</span><span>✅ Практика</span></div></div></div>
+
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">07</span><span class="acc-title">Ценообразование и упаковка услуг</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Как выставить цену, которую платят с удовольствием. Пакеты услуг, абонементы, upsell.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>💰 Калькулятор цен</span><span>📊 Шаблоны</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">08</span><span class="acc-title">Продвижение в Instagram и TikTok</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Контент-план, Reels, сторис, таргет. Как набрать первые 1000 подписчиков и превратить их в клиентов.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>📱 Контент-план</span><span>🎯 Стратегия</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">09</span><span class="acc-title">Создание личного бренда</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Позиционирование, визуал, tone of voice, сторителлинг. Чтобы клиенты выбирали именно тебя.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>🎨 Мудборд</span><span>📝 Бренд-бук</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">10</span><span class="acc-title">Масштабирование — от мастера к студии</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Когда пора расширяться, как нанять помощника, открыть кабинет, выйти на 200 000+ ₽/мес.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📊 Бизнес-план</span><span>🗺 Дорожная карта</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- БИЗНЕС -->
+          <div class="course-panel" id="panel-business">
+            <div class="panel-grid">
+              <div class="panel-info">
+                <span class="panel-level">Бизнес-курс</span>
+                <h3>Свой бровный бизнес</h3>
+                <p class="panel-for">Для мастеров, которые хотят открыть студию или запустить своё обучение</p>
+                <div class="panel-result">
+                  <h4>Что ты получишь в итоге:</h4>
+                  <div class="result-items">
+                    <div class="result-item"><span class="result-icon">🏠</span><div><span>Готовый бизнес-план</span><p>Пошаговая модель открытия студии</p></div></div>
+                    <div class="result-item"><span class="result-icon">👥</span><div><span>Команда мастеров</span><p>Как нанять, обучить и удержать</p></div></div>
+                    <div class="result-item"><span class="result-icon">📈</span><div><span>Доход от 300 000 ₽/мес</span><p>Системный бизнес, а не ручная работа</p></div></div>
+                    <div class="result-item"><span class="result-icon">🎓</span><div><span>Своя школа обучения</span><p>Дополнительный источник дохода</p></div></div>
+                  </div>
+                </div>
+                <div class="panel-price-block">
+                  <div class="panel-price"><span class="panel-old-price">50 000 ₽</span><span class="panel-new-price">39 900 ₽</span></div>
+                  <div class="panel-spots"><span class="spots-dot"></span> Осталось 2 места из 5</div>
+                  <a href="#contact" class="btn btn-primary btn-full">Записаться на курс</a>
+                  <p class="panel-guarantee">✦ Стратегическая сессия 1-на-1 в подарок</p>
+                </div>
+              </div>
+
+              <div class="panel-modules">
+                <h4>Программа курса <span class="module-count">8 модулей</span></h4>
+                <div class="accordion">
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">01</span><span class="acc-title">Бизнес-модель бровной студии</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Форматы студий, unit-экономика, точка безубыточности. Считаем цифры до старта.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📊 Финмодель</span><span>✅ Шаблон</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">02</span><span class="acc-title">Поиск помещения и оборудование</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Где искать, на что смотреть, как торговаться. Список оборудования с ценами и поставщиками.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📋 Чек-лист</span><span>💡 Лайфхаки</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">03</span><span class="acc-title">Юридические вопросы и лицензии</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>ИП или ООО, какие документы нужны, санитарные нормы. Всё простым языком + готовые шаблоны.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📄 Шаблоны документов</span><span>✅ Чек-лист</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">04</span><span class="acc-title">Найм и обучение мастеров</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Где искать мастеров, как проводить собеседование, система обучения и мотивации.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📝 Скрипты</span><span>📋 Регламенты</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">05</span><span class="acc-title">Маркетинг и привлечение клиентов</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Таргет, блогеры, сарафан, партнёрства. Системный поток клиентов без зависимости от одного канала.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>🎯 Стратегия</span><span>📊 Воронка</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">06</span><span class="acc-title">Финансы — учёт, налоги, прибыль</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Простой финансовый учёт, налоговые режимы, как считать прибыль и не уйти в минус.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>📊 Таблицы учёта</span><span>💰 Калькулятор</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">07</span><span class="acc-title">Создание своей школы обучения</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>Как упаковать свой опыт в курс, платформа, ценообразование, первые ученицы.</p><div class="acc-details"><span>🎬 3 видеоурока</span><span>📝 Структура курса</span><span>🎯 Запуск</span></div></div></div>
+                  <div class="accordion-item"><button class="accordion-btn"><span class="acc-num">08</span><span class="acc-title">Автоматизация и делегирование</span><span class="acc-arrow">+</span></button>
+                    <div class="accordion-body"><p>CRM, онлайн-запись, бот в Telegram, ассистент. Чтобы бизнес работал без тебя.</p><div class="acc-details"><span>🎬 2 видеоурока</span><span>🤖 Настройка бота</span><span>📋 Регламенты</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Сравнение тарифов -->
+        <div class="compare-table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr><th></th><th>🌱 Старт</th><th>⭐ PRO</th><th>👑 Бизнес</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Видеоуроки HD</td><td>8</td><td>10</td><td>8</td></tr>
+              <tr><td>Рабочие тетради</td><td>✓</td><td>✓</td><td>✓</td></tr>
+              <tr><td>Домашние задания с разбором</td><td>✓</td><td>✓</td><td>✓</td></tr>
+              <tr><td>Сертификат</td><td>✓</td><td>✓</td><td>✓</td></tr>
+              <tr><td>Чат поддержки</td><td>✓</td><td>✓</td><td>✓</td></tr>
+              <tr><td>Практика на моделях</td><td>—</td><td>✓</td><td>—</td></tr>
+              <tr><td>Личный разбор работ</td><td>—</td><td>✓</td><td>—</td></tr>
+              <tr><td>Менторство 30 дней</td><td>—</td><td>✓</td><td>—</td></tr>
+              <tr><td>Бизнес-план / Финмодель</td><td>—</td><td>✓</td><td>✓</td></tr>
+              <tr><td>Стратегическая сессия 1-на-1</td><td>—</td><td>—</td><td>✓</td></tr>
+              <tr><td>Закрытый клуб владельцев</td><td>—</td><td>—</td><td>✓</td></tr>
+              <tr class="compare-price-row"><td>Цена</td><td>9 900 ₽</td><td>24 900 ₽</td><td>39 900 ₽</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Истории выпускниц -->
+        <div class="graduates">
+          <p class="section-tag">Истории успеха</p>
+          <h3 class="section-title">Они были на твоём месте. <span class="gold-text">Посмотри, где они сейчас.</span></h3>
+          <div class="graduates-grid">
+            <div class="graduate-card">
+              <div class="graduate-avatar">А</div>
+              <div class="graduate-info">
+                <span class="graduate-name">Алина, 22 года</span>
+                <span class="graduate-city">Сочи → свой кабинет</span>
+              </div>
+              <div class="graduate-story">
+                <div class="graduate-before"><span>До:</span> Работала администратором в салоне за 25 000 ₽</div>
+                <div class="graduate-after"><span>После:</span> Открыла свой кабинет, доход 120 000 ₽/мес</div>
+              </div>
+              <p class="graduate-quote">«Я даже не верила, что смогу. Но программа настолько пошаговая, что просто невозможно не получить результат»</p>
+              <span class="graduate-course">Курс: PRO</span>
+            </div>
+            <div class="graduate-card">
+              <div class="graduate-avatar">Д</div>
+              <div class="graduate-info">
+                <span class="graduate-name">Дарья, 19 лет</span>
+                <span class="graduate-city">Краснодар → мастер на дому</span>
+              </div>
+              <div class="graduate-story">
+                <div class="graduate-before"><span>До:</span> Студентка без опыта и дохода</div>
+                <div class="graduate-after"><span>После:</span> Совмещает учёбу и работу, 60 000 ₽/мес</div>
+              </div>
+              <p class="graduate-quote">«Лучшее вложение в себя за всю жизнь. Теперь я сама зарабатываю и не завишу от родителей»</p>
+              <span class="graduate-course">Курс: Старт</span>
+            </div>
+            <div class="graduate-card">
+              <div class="graduate-avatar">К</div>
+              <div class="graduate-info">
+                <span class="graduate-name">Кристина, 27 лет</span>
+                <span class="graduate-city">Москва → студия + школа</span>
+              </div>
+              <div class="graduate-story">
+                <div class="graduate-before"><span>До:</span> Мастер-одиночка, потолок 80 000 ₽</div>
+                <div class="graduate-after"><span>После:</span> Студия с 3 мастерами + своя школа, 350 000 ₽/мес</div>
+              </div>
+              <p class="graduate-quote">«Бизнес-курс перевернул моё мышление. Я перестала быть ремесленником и стала предпринимателем»</p>
+              <span class="graduate-course">Курс: Бизнес</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Комьюнити -->
+        <div class="community">
+          <div class="community-inner">
+            <div class="community-text">
+              <p class="section-tag">Комьюнити</p>
+              <h3>Ты не одна. <span class="gold-text">Ты — часть семьи.</span></h3>
+              <p>После обучения ты попадаешь в закрытое комьюнити Golden Girls — это чат в Telegram, где 100+ мастеров делятся опытом, поддерживают друг друга и растут вместе.</p>
+              <div class="community-features">
+                <div class="comm-feat"><span>💬</span> Закрытый чат мастеров</div>
+                <div class="comm-feat"><span>📸</span> Еженедельные разборы работ</div>
+                <div class="comm-feat"><span>🎁</span> Эксклюзивные скидки на материалы</div>
+                <div class="comm-feat"><span>📡</span> Ежемесячные мастер-классы</div>
+                <div class="comm-feat"><span>🤝</span> Нетворкинг и коллаборации</div>
+                <div class="comm-feat"><span>🏆</span> Конкурсы с призами</div>
+              </div>
+            </div>
+            <div class="community-visual">
+              <div class="comm-bubble comm-bubble-1">«Девочки, сегодня 5 клиентов за день 🔥»</div>
+              <div class="comm-bubble comm-bubble-2">«Кто в Сочи? Давайте встретимся! 💕»</div>
+              <div class="comm-bubble comm-bubble-3">«Спасибо за разбор, исправила и клиентка в восторге ✨»</div>
+              <div class="comm-bubble comm-bubble-4">«Открыла свой кабинет, спасибо этому комьюнити 🏠»</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Бесплатный мини-курс -->
+        <div class="free-course">
+          <div class="free-course-inner">
+            <div class="free-course-badge">Бесплатно</div>
+            <div class="free-course-text">
+              <h3>Не уверена? Попробуй бесплатно.</h3>
+              <p>Мини-курс «5 секретов идеальных бровей» — 5 видеоуроков в Telegram. Пойми, подходит ли тебе эта профессия, без вложений.</p>
+              <div class="free-course-includes">
+                <span>🎬 5 видеоуроков</span>
+                <span>📝 Рабочая тетрадь</span>
+                <span>💬 Доступ в чат</span>
+                <span>🎁 Бонус: чек-лист материалов</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary">Получить бесплатно</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="section-tag">Отзывы</p>
+      <h2 class="section-title">Что говорят <span class="gold-text">мои девочки</span></h2>
+      <div class="reviews-slider">
+        <div class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">«Пришла на архитектуру бровей и влюбилась в результат. Теперь хожу только сюда. Атмосфера невероятная — как к подруге приходишь»</p><div class="review-author"><div class="review-avatar">А</div><div><span class="review-name">Анастасия</span><span class="review-role">Клиент</span></div></div></div>
+        <div class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">«Прошла базовый курс и уже через месяц начала зарабатывать. Лучшее вложение в себя. Поддержка на каждом этапе — это бесценно»</p><div class="review-author"><div class="review-avatar">М</div><div><span class="review-name">Мария</span><span class="review-role">Выпускница курса</span></div></div></div>
+        <div class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">«Благодаря курсу PRO открыла свой кабинет в Краснодаре. Доход вырос в 3 раза. Спасибо за веру в меня и крутую программу»</p><div class="review-author"><div class="review-avatar">Е</div><div><span class="review-name">Екатерина</span><span class="review-role">Выпускница PRO</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакт -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="section-tag">Запись</p>
+          <h2>Готова к <span class="gold-text">переменам</span>?</h2>
+          <p>Запишись на процедуру или оставь заявку на обучение. Я свяжусь с тобой в течение часа.</p>
+          <div class="contact-links">
+            <a href="https://t.me/" class="contact-link" target="_blank"><span class="contact-link-icon">✈</span> Telegram</a>
+            <a href="https://wa.me/" class="contact-link" target="_blank"><span class="contact-link-icon">📱</span> WhatsApp</a>
+            <a href="https://instagram.com/" class="contact-link" target="_blank"><span class="contact-link-icon">📷</span> Instagram</a>
+          </div>
+          <div class="contact-address"><p>📍 Сочи, Центральный район</p><p>🕐 Пн-Сб: 10:00 — 20:00</p></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Твоё имя" required>
+          <input type="tel" placeholder="Телефон" required>
+          <select><option value="" disabled selected>Что тебя интересует?</option><option>Запись на процедуру</option><option>Базовый курс — Старт</option><option>Курс PRO — Мастер бровей</option><option>Бизнес-курс</option><option>Бесплатный мини-курс</option><option>Другое</option></select>
+          <textarea placeholder="Сообщение (необязательно)" rows="3"></textarea>
+          <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+          <p class="form-note">Нажимая кнопку, ты соглашаешься с политикой конфиденциальности</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container"><div class="footer-inner">
+    <a href="#hero" class="logo">Golden<span>Lashes</span></a>
+    <p>© 2026 Golden Lashes. Сочи. Все права защищены.</p>
+    <div class="footer-links"><a href="https://t.me/" target="_blank">Telegram</a><a href="https://instagram.com/" target="_blank">Instagram</a><a href="https://wa.me/" target="_blank">WhatsApp</a></div>
+  </div></div></footer>
+
+  <a href="https://t.me/" class="tg-float" target="_blank" aria-label="Написать в Telegram"><span>✈</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
